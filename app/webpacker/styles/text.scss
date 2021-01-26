@@ -111,7 +111,6 @@ a {
 
 @include mq($until: tablet) {
     .strapline {
-        font-size: $fs-24;
         padding-top: 10px;
         padding-bottom: 10px;
     }
