@@ -46,6 +46,7 @@
   @include mq($until: tablet) {
     .strapline {
       margin-right: 1.2em;
+      font-size: $fs-28;
     }
 
     dl {

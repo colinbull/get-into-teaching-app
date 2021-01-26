@@ -43,6 +43,12 @@
     .page-helpful {
       @include overhang;
     }
+
+    @include mq($until: tablet) {
+      h2 {
+        font-size: $fs-28;
+      }
+    }
   }
 
   h2:not(:first-of-type) {
