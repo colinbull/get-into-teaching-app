@@ -94,7 +94,7 @@ $mobile-cutoff: 800px;
 
       &__title { grid-area: 3 / 1 / 5 / 6; }
 
-      &__subtitle { grid-area: 5 / 1 / 7 / 4; }
+      &__subtitle { grid-area: 5 / 1 / 7 / 5; }
 
       &__content { grid-area: 5 / 1 / 7 / 5; }
 
@@ -135,7 +135,7 @@ $mobile-cutoff: 800px;
       }
 
       > span {
-        font-size: $fs-32;
+        font-size: $fs-36;
         border-bottom: 3px solid $black;
 
         &:after { content: "."; }
@@ -155,7 +155,7 @@ $mobile-cutoff: 800px;
       font-weight: 700;
 
       @include mq($from: tablet) {
-        font-size: $fs-32;
+        font-size: $fs-28;
         font-weight: 700;
       }
     }
