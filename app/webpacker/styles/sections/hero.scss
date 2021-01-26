@@ -141,7 +141,7 @@ $mobile-cutoff: 800px;
         &:after { content: "."; }
 
         @include mq($from: tablet) {
-          font-size: $fs-64;
+          font-size: $fs-54;
           border-bottom: 5px solid $black;
         }
       }
